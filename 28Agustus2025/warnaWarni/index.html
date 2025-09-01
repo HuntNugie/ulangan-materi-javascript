@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warna warni</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <style>
+        html{
+            height: 100%;
+            width: 100%;
+        }
+     </style>
+</head>
+<body class="text-center">
+    <h1 class="mt-4 text-[30px] font-bold uppercase">Bermain warna warni</h1>
+    <button class="bg-blue-300 rounded-full p-2 mt-3" id="favorite">Warna favorite</button>
+    <button class="bg-red-300 rounded-full p-2 mt-3" id="random">Warna random</button>
+    <div class="h-20 w-20 bg-red-500 mx-auto mt-10"></div>
+    <input type="range" max="255" min="0" class="merah">
+    <div class="h-20 w-20 bg-green-500 mx-auto mt-10"></div>
+    <input type="range" max="255" min="0" class="hijau">
+    <div class="h-20 w-20 bg-blue-500 mx-auto mt-10"></div>
+    <input type="range" max="255" min="0" class="biru">
+    
+    <script src="script.js"></script>
+</body>
+</html>
