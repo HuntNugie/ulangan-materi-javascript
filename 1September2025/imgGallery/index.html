@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>image gallery</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body>
+        <div class="container p-10">
+            <div class="w-180 h-180 bg-gray-500 mx-auto border-3 border-yellow-500">
+                <div class="h-1/2">
+                    <img src="img/gambar1.jpg" class="w-full h-full object-cover" alt="" / id="utama">
+                </div>
+
+                <div class="grid grid-cols-3 w-auto h-auto" id="pilihan">
+                    <div class="border-1 border-yellow-500 hover:opacity-50 ">
+                        <img src="img/gambar1.jpg" class="w-full h-[176px] object-cover object-contain" alt="" />
+                    </div>
+                    <div class="border-1 border-yellow-500 hover:opacity-50">
+                        <img src="img/gambar2.jpg" class="w-full h-[176px] object-cover object-contain" alt="" />
+                    </div>
+                    <div class="border-1 border-yellow-500 hover:opacity-50">
+                        <img src="img/gambar3.jpg" class="w-full h-[176px] object-cover object-contain" alt="" />
+                    </div>
+                    <div class="border-1 border-yellow-500 hover:opacity-50">
+                        <img src="img/gambar4.png" class="w-full h-[176px] object-cover object-contain" alt="" />
+                    </div>
+                    <div class="border-1 border-yellow-500 hover:opacity-50">
+                        <img src="img/gambar5.png" class="w-full h-[176px] object-cover object-contain" alt="" />
+                    </div>
+                    <div class="border-1 border-yellow-500 hover:opacity-50">
+                        <img src="img/gambar6.png" class="w-full h-[176px] object-cover object-contain" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
